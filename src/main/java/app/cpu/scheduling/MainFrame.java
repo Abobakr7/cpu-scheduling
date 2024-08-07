@@ -5,7 +5,6 @@ import javax.swing.JOptionPane;
 
 public class MainFrame extends javax.swing.JFrame {
 
-    private final String[] colors = {"RED", "BLUE", "GREEN", "YELLOW", "ORANGE", "PINK", "CYAN", "MAGENTA", "GRAY", "BLACK"};
     public MainFrame() {
         initComponents();
     }
@@ -172,7 +171,6 @@ public class MainFrame extends javax.swing.JFrame {
             String[] info = processesInfo[i].split("\\s+");
             try {
                 name = info[0];
-//                color = info[1].toUpperCase();
                 arrivalTime = Integer.parseInt(info[1]);
                 burstTime = Integer.parseInt(info[2]);
                 priority = Integer.parseInt(info[3]);                
@@ -201,4 +199,5 @@ public class MainFrame extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
     private Scheduler scheduler;
     private final String[] algorithms = {"Shortest Job First (SJF)", "Shortest Remaining Time First (SRTF)", "Priority Scheduling", "AG Scheduling"};
+    private final String[] colors = {"RED", "BLUE", "GREEN", "YELLOW", "ORANGE", "PINK", "CYAN", "MAGENTA", "GRAY", "BLACK"};
 }
