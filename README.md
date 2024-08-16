@@ -25,4 +25,20 @@ the input format for processes is like this: pr_name pr_color pr_arrival_time pr
 
 #### ScreenShots
 - Start Panel
-  ![](./pics/1.jpg)
+  ![start panel](./pics/1.JPG)
+  
+- Shortest Job First (SJF)
+  ![inputs](./pics/3.JPG)
+  ![gantt chart](./pics/4.JPG)
+
+- Shortest Remainging Time First (SRTF)
+  ![inputs](./pics/5.JPG)
+  ![gantt chart](./pics/6.JPG)
+
+- Priority Schedulling
+  ![inputs](./pics/7.JPG)
+  ![gantt chart](./pics/8.JPG)
+
+- AG Schedulling
+  ![inputs](./pics/9.JPG)
+  ![gantt chart](./pics/10.JPG)
