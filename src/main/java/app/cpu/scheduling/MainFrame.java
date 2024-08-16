@@ -32,7 +32,6 @@ public class MainFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("CPU Scheduling Simulator");
         setName("mainFrame"); // NOI18N
-        setPreferredSize(new java.awt.Dimension(1000, 500));
         setResizable(false);
 
         numProcessesLabel.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -79,7 +78,7 @@ public class MainFrame extends javax.swing.JFrame {
         processTextArea.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         processTextArea.setLineWrap(true);
         processTextArea.setRows(5);
-        processTextArea.setText("Enter process name, color, arrival time, burst time, and priority number\nEx:\nP1 red 0 5 1\nP2 green 3 4 2");
+        processTextArea.setText("Enter process name, arrival time, burst time, and priority number\nEx:\nP1 0 5 1\nP2 3 4 2");
         jScrollPane2.setViewportView(processTextArea);
 
         enterBtn.setText("Enter");

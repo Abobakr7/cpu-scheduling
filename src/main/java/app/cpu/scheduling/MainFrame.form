@@ -190,7 +190,7 @@
             </Property>
             <Property name="lineWrap" type="boolean" value="true"/>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="Enter process name, color, arrival time, burst time, and priority number&#xa;Ex:&#xa;P1 red 0 5 1&#xa;P2 green 3 4 2"/>
+            <Property name="text" type="java.lang.String" value="Enter process name, arrival time, burst time, and priority number&#xa;Ex:&#xa;P1 0 5 1&#xa;P2 3 4 2"/>
           </Properties>
         </Component>
       </SubComponents>
