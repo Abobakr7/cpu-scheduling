@@ -21,3 +21,8 @@ becuase it can have a big effect on resource utilization and the overall perform
 #### Input Example
 (pr stands for process)
 the input format for processes is like this: pr_name pr_color pr_arrival_time pr_burst_time pr_priority
+
+
+#### ScreenShots
+- Start Panel
+  ![](./pics/1.jpg)
